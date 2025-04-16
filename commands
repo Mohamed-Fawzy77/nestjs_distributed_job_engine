@@ -1,0 +1,2 @@
+npx create-nx-workspace --preset nest jobberr --appName jobber-auth
+nx build jobber-auth
