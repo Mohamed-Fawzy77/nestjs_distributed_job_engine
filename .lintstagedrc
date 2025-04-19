@@ -1,4 +1,4 @@
 {
-  "*.ts": ["nx run-many --target=lint --uncommitted --fix --parallel"],
-  "*": ["nx format:write --uncommitted"]
+  "*.ts": ["eslint --fix"],
+  "*.{js,ts,tsx,json,md,yml,yaml,css,html}": ["prettier --write"]
 }
