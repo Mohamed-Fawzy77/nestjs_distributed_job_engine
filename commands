@@ -1,2 +1,5 @@
 npx create-nx-workspace --preset nest jobberr --appName jobber-auth
 nx build jobber-auth
+nx generate-types jobber-auth
+nx migrate-prisma jobber-auth
+nx g module prisma
