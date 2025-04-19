@@ -1,0 +1,16 @@
+query {
+  users {
+    id
+    email
+
+  }
+}
+
+mutation {
+  createUser(
+    createUserInput: { email: "moh@gmail.com", password: "MystrongPas@43" }
+  ) {
+    id
+    email
+  }
+}
